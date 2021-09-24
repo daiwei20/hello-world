@@ -1,0 +1,287 @@
+1 如果测出一个BUG,研发说不是BUG,怎么沟通
+	1.这个我深有心得，一般情形下，无论开发还是测试，首先都会相信自己的对的，既然是这样，态度一定好，不能觉得对方是错的，有可能是自己理解不明确
+	2.而我们之前的测试，遇到这种问题，他都会再测一次，再确定一下结果，确定是否能复现，这一点让我觉得非常有必要。
+	2.如果双方都坚持，可以找第三方，测试可以先问下其他测试，请教下测试主管，他们是怎么判断的
+	3.如果大部分测试觉得是bug，问下需求人员，这个问题算不算bug，需求人员人员确定不了，问问开发经理，问问项目经理。
+	4.相关内容截图，指出依据，避免麻烦，推荐话术“其中XX功能，预期结果是XX，实际结果是XX，产生原因是XX”你看下是不是这样的。
+
+测试是什么
+	1.测试是找到软件中存在的缺陷和bug（问题），提高软件质量
+	2.测试是证明软件是否可用的（满足用户需求）
+	3.测试是对软件测试的认知（软件背景、软件使用到的技术）
+	4.测试不仅仅是操作软件，还有满足用户的需求，站在用户的角度去考虑
+	
+	测试包含软件测试的四个活动（测试计划、测试设计、测试实现、测试执行）
+	对测试的一个常见误解是认为测试只包括测试执行，测试过程还包括很多活动，
+		例如：测试计划、分析、设计和实现，报告测试进度和结果，以及评估测试对象的质量。
+	另外一个常见误解是它只关注需求、用户故事或者其它规格说明的验证。虽然测试确实涉及检查系统是否满足特定的需求，
+	但是测试还涉及确认，即检查系统是否满足用户和其它利益相关者在其运行环境下的要求。	
+
+测试分类
+	开发阶段来分：
+		单元测试阶段、集成测试阶段、系统测试阶段、验收测试阶段
+	是否查看代码：
+		黑盒测试、白盒测试、灰盒测试
+	按是否手工执行划分：
+		手工测试、自动化测试 	
+黑盒和白盒测试区别	
+
+系统测试测试类型：
+	功能测试
+	安全性测试 安装测试
+	易用性测试
+	兼容性测试
+	性能测试
+	异常测试/可靠性测试
+	界面测试
+黑盒测试用例的设计方法：
+	等价类、边界值、输入域、输出域 
+	状态迁移、流程分析、正交试验、判断表、因果图、错误猜测法
+
+公司的测试流程是什么：
+	用自己的话，把测试流程说一遍	
+2 平时从哪些方面去设计测试用例
+
+3 怎么做白盒测试
+
+
+
+TCP/IP 七层模型
+	应用层
+	表示层
+	会话层
+	传输层
+	网络层
+	数据链路层
+	物理层
+tcp/udp区别
+	tcp:https://zhuanlan.zhihu.com/p/103917076
+	udp:
+tcp三次握手，4次挥手	
+	https://blog.csdn.net/xifeijian/article/details/12777187
+	https://baijiahao.baidu.com/s?id=1654225744653405133&wfr=spider&for=pc
+cookie/session区别
+
+dns解析，
+	https://www.zhihu.com/search?type=content&q=%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95
+	https://zhuanlan.zhihu.com/p/138092154
+https/http区别，
+
+
+url输入敲回车键到页面出现过程发生什么，
+	https://blog.csdn.net/Charles_Tian/article/details/80204526
+	https://blog.csdn.net/weixin_43789905/article/details/109547743
+	https://www.zhihu.com/question/23042131
+请求头和响应头有哪些内容
+
+get post区别
+内容：	get内容在请求头中，post在请求体中
+安全性：get不安全，会出现在地址栏内，post请求安全
+隐私性：get请求数据出现地址栏内，post隐私性较好
+数据长度：get数据长度为1024个字节。post没有限制
+作用：get用来取数据，post用来提交数据
+缓存：get数据能被缓存，post数据不能被缓存
+书签：get请求能被添加为书签，post不能被添加为书签
+数据格式：get格式 mutiltype/from-data
+
+
+http请求方法：
+get
+post
+put 上传制定资源
+delete 删除指定资源
+head 只返回http报文头
+TRACE：回显服务器收到的请求，主要用于测试或诊断
+OPTIONS：返回服务器针对特定资源所支持的HTTP请求方法。也可以利用向Web服务器发送’*’的请求来测试服务器的功能性。
+PATCH：PATCH请求与PUT请求类似，同样用于资源的更新。
+	PATCH一般用于资源的部分更新，而PUT一般用于资源的整体更新。
+	当资源不存在时，PATCH会创建一个新的资源，而PUT只会对已在资源进行更新。
+
+什么是软件测试：
+	找到软件中的缺陷和bug，保证质量；
+	保证软件可用，满足用户需求；
+	对软件测试用到的技术有一定认知；
+	用户思维，操作站在用户角度考虑
+	测试包含软件测试四个活动：
+		测试设计
+		测试计划
+		测试实现
+		测试执行
+软件测试的目的：早期，缺陷预防，找到需求、设计上的bug
+	中期，找到bug,使程序尽早稳定
+	后期，证明程序可用，功能实现，是否满足用户需求
+什么是软件缺陷	
+
+Fidder原理：
+	Fiddler在浏览器与服务器之间建立一个代理服务器，Fiddler工作于七层中的应用层，能够捕获通过的HTTP(S)请求。
+	Fiddler启动后会自动将代理服务器设置成本机，默认端口为8888。
+	Fiddler不仅能记录PC上浏览器的网络请求数据，还可以记录同一网络中的其他设备的HTTP(S)请求数据。
+
+	1) 客户端像WEB服务器发送HTTP(S)请求时，请求会先经过代理Fiddler代理服务器。
+	2) Fiddler代理服务器截取客户端的请求报文，再转发到WEB服务器，转发之前可以做一些请求报文参数修改的操作。
+	3) WEB服务器处理完请求以后返回响应报文，Fiddler代理服务器会截取WEB服务器的响应报文。
+	4) Fiddler处理完响应报文后再返回给客户端。
+
+Fidder抓取HTTPS原理:
+	1) 客户端请求建立HTTPS链接，发送客户端支持的加密协议及版本列表等信息给服务器端。
+	2) Fiddler接受客户端请求并伪装成客户端向WEB服务器发送相同的请求。
+	3) WEB服务器收到Fiddler的请求以后，从请求中筛选合适的加密协议。并返回服务器CA证书，证书中包括公钥信息。
+	4) Fiddler收到WEB服务器的响应后保存服务器证书并自签名一个CA证书，伪装成服务器，把该证书下发给客户端。
+	5) 客户端验证证书合法性。（Fiddler能否抓取到HTTPS报文关键看这一步）
+	6) 客户端生产对称密钥，通过证书的公钥加密发送给服务器。
+	7) Fiddler拦截客户端的请求以后，使用私钥解密该报文，获取对称加密秘钥，并使用服务器证书中带的公钥加密该对称密钥发送给WEB服务器。此时对称密钥已经泄露了，以后可以使用该秘钥界面客户端和服务器端传输的数据。
+	8) WEB服务器接收到客户端发送的加密的对称密钥后使用私钥解密，并使用对称密钥加密测试数据传给客户端。
+	9) Fiddler使用前面获取的对称密钥解密报文。
+	10) 客户端验证数据无误以后HTTPS连接就建立完成，客户端开始向服务器发送使用对称密钥加密的业务数据
+	11) Fiddler使用前面获取的对称密钥解密客户端发送的数据并重新加密转发给客户端。
+	
+浏览器输入网址后，具体的跳转过程：
+整体来说分为以下几个过程：
+	1.DNS解析，浏览器缓存、系统缓存、路由器缓存、DNS服务器缓存
+	（TCP连接）
+	2.发送HTTP请求
+		GET http://facebook.com/ HTTP/1.1 Accept: application/x-ms-application, image/jpeg, application/xaml+xml, […] User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; […] Accept-Encoding: gzip, deflate Connection: Keep-Alive Host: facebook.com Cookie: datr=1265876274-[…]; locale=en_US; lsd=WW[…]; c_user=2101[…]
+		GET 这个请求定义了：
+		1)要读取的URL： “http://facebook.com/”。
+		2)浏览器自身定义 (User-Agent 头)
+		3)它希望接受什么类型的相应 (Accept and Accept-Encoding 头)
+		4)Connection头要求服务器为了后边的请求不要关闭TCP连接。
+		5)cookies是与跟踪一个网站状态相匹配的键值。这样cookies会存储登录用户名，服务器分配的密码和一些用户设置等。Cookies会以文本文档形式存储在客户机里，每次请求时发送给服务器。
+		————————————————
+		版权声明：本文为CSDN博主「echo-lin」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
+		原文链接：https://blog.csdn.net/weixin_43947156/article/details/105550868
+	3.重定向（302）
+		原因I：跟搜索引擎排名有关。你看，如果一个页面有两个地址，就像http://www.igoro.com/ 和http://igoro.com/，搜索引擎会认为它们是两个网站，结果造成每一个的搜索链接都减少从而降低排名。
+		原因II：用不同的地址会造成缓存友好性变差。当一个页面有好几个名字时，它可能会在缓存里出现好几次。
+	4.服务器处理请求
+	5.服务器返回HTML响应报文
+		HTTP/1.1 200 OK Cache-Control: private, no-store, no-cache, must-revalidate, post-check=0, pre-check=0 Expires: Sat, 01 Jan 2000 00:00:00 GMT P3P: CP=“DSP LAW” Pragma: no-cache Content-Encoding: gzip Content-Type: text/html; charset=utf-8 X-Cnection: close Transfer-Encoding: chunked Date: Fri, 12 Feb 2010 09:05:55 GMT 2b3Tn@[…]
+		整个响应大小为35kB，其中大部分在整理后以blob类型传输。内容包括：
+		1)内容编码头告诉浏览器整个响应体用gzip算法进行压缩。解压blob块后，才可以看到期望的HTML：
+		2)是否缓存这个页面，如果缓存的话如何去做，有什么cookies要去设置(前面这个响应里没有这点)和隐私信息等等。
+		3)把Content-type设置为“text/html”，以让浏览器将该响应内容以HTML形式呈现，而不是以文件形式下载它。
+	6.浏览器解析渲染页面
+	　　1、解析html
+	　　2、构建dom树
+	　　3、解析外部样式和脚本，执行，继续解析
+	　　4、布局，结合呈现树，把dom节点的大小、位置计算出来
+	　　5、绘制，将布局显示在浏览器窗口
+连接结束 	
+
+
+
+
+ 发送方控制拥塞窗口的原则是：只要网络没有出现拥塞，拥塞窗口就再增大一些，以便把更多的分组发送出去。但只要网络出现拥塞，拥塞窗口就减小一些，以减少注入到网络中的分组数。
+
+
+非常荣幸完成了aeaicrm客户关系管理系统，通过这次项目的实战演练，我学习到了很多东西，倍感珍惜。
+	首先，记录一下在项目推进过程中，自己遇到的问题，
+第一，	在熟悉aeaicrm这个项目系统时，我发现相关需求规格说明书、设计规格说明书中，虽然对流程有大致的描述，但是没有具体的流程每一步的详细描写，也没有流程图，再加上，实际操作时，推进流程的每一步操作，与产品文档说明中描述并不完全一致（特别是拜访记录这一块，按需求规格说明书描述，我的理解是先登记客户，再做拜访，然后生成线索）。这些种种，都让我在推进系统流程时，时常会感到困惑，是项目流程上有BUG？还是系统允许一些开放的操作？导致我在整理流程图时，没有很完整的思路，最终画出的流程图也与其他人流程图有部分出入，
+第二，	必须要说的是，这个系统存在多角色的情况，这种多角色理解起来并不难，但是要将不同角色的操作权限与流程完美映射到泳道图中，却非常
+
+
+linux:
+1.安装jdk
+	1.检查jdk是否安装 rpm -qa|grep java
+	2.安装jdk   rmp -ivh [path.name]
+	3.配置环境变量 vi /opt/profile 末尾配置java_home  path class_path？？
+	4.配置生效 source /opt/profile
+	5.查看java版本 java -version
+2.安装tomcat
+	2.1 解压tomcat包移动到指定位置
+			mv path /usr/local/tomcat/
+	2.2 启动tomcat bin目录下  ./startup.sh
+	2.3 ?? 查看tomcat进程 ps -ef|grep java ps -ef|grep tomcat
+	2.4 ?? 开放端口8080 （iptables -I INPUT -p tcp --dport 8080 -j ACCEPT）
+3.安装mysql
+	3.1 检查是否已有mysql rpm -qa|grep java
+	3.2 安装依赖perl ？？（yum install perl perl-DBI net-tools -y）
+	3.3 安装mysql
+		rpm -ivh path.name client
+		rpm -ivh path.name server
+	3.4 ？？ 查询 MySQL 的 root 用户初始密码	cat /root/.mysql_secret	
+	3.5 修改root初始密码 ？？mysql_secure_installation
+	3.5 开启远程访问权限并重启
+		mysql -u root -p 
+		update mysql.user set host='%' where host='localhost' and user='root'; ？？
+		flush privileges;  ？？
+		service mysql restart ？？
+	3.6 开放3306端口	
+		systemtcl start firewalld ??
+		firewall-cmd --permanent --zone=public --add-port=3306/tcp ??
+4.安装项目
+	4.1将项目放到指定位置解压
+	4.2检查配置文件mysql连接 
+	4.3启动项目 XXX/bin/startup.sh
+	4.4开放端口 firewall-cmd --add-port=6060/tcp --zone=public --permanent ??
+				firewall-cmd --reload ??
+				
+5.常用的Linux命令有哪些，
+	文件与目录操作命令
+		cd 改变当前路径
+		mkdir 创建目录
+		rmdir 删除目录
+		rm 删除
+			rm -rf
+			rm -r
+		cp 复制
+			cp -r 递归复制
+		mv 移动
+		管道竖线| 执行结果传递		
+	查看文件内容命令 	
+		cat
+		more
+		less
+		head
+		tail
+	vi/vim编辑器
+	文件与目录权限
+		chomd 变更文件及目录的读写执行权限。
+			ugo
+	搜索文件或目录
+		grep 搜索
+		find 指定目录以及其所有子目录进行文件搜索
+			find /* -name '*httpd*'
+		locate 
+			从已建立的数据库/var/lib/mlocate中查找数据，而不是直接在硬盘上进行,
+			删除数据会显示，新增数据不显示
+			先执行updatedb命令手动更新数据库，然后再执行locate命令
+			locate test*  查找含有‘test’字符的文件名的文件位置
+	打包与压缩
+		bzip2
+		gzip gzip -9 install.log
+		zip zip 压缩名 文件列表（可包括文件或文件夹）
+		tar
+			tar -cvf ins.tar install.log install.log.syslog 压缩
+			tar -xvf ins.tar 解压
+	后台工作
+		& 放到后台
+		jobs 查看后台任务
+		fg 把后台任务推动前台 fg %[1]
+	系统状态监控
+		ps 显示当前系统中运行的进程
+			ps -ef |grep java 列出系统中所有的进程
+			ps aux 列出目前所有的正在内存当中的程序 
+		kill 命令用于停止或杀死进程
+			kill -9 PID1 PID2 PID3
+		top	
+			top命令用于动态监控进程所占系统的资源，每隔3秒变一次。
+		w 查看当前系统负载
+		vmstat 监控当前系统状态
+		free 查看内存使用状况	
+	安装应用程序有两种方式
+		rpm  -ivh [rpm包名] 安装该rpm包
+		rpm  -Uvh [rpm包名] 升级指定的rpm包 
+		rpm  -e 卸载
+		yam install
+			remove
+	网络管理
+		ifconfig
+		netstat netstat -lnp用于显示当前系统启用哪些端口
+		ping
+	启动
+	打开端口
+	
+
+
+

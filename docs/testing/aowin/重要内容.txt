@@ -1,0 +1,89 @@
+TCP/IP 七层模型
+	应用层
+	表示层
+	会话层
+	传输层
+	网络层
+	数据链路层
+	物理层
+tcp/udp区别
+	tcp:https://zhuanlan.zhihu.com/p/103917076
+	udp:
+tcp三次握手，4次挥手	
+	https://blog.csdn.net/xifeijian/article/details/12777187
+	https://baijiahao.baidu.com/s?id=1654225744653405133&wfr=spider&for=pc
+cookie/session区别
+
+dns解析，
+	https://www.zhihu.com/search?type=content&q=%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95
+	https://zhuanlan.zhihu.com/p/138092154
+https/http区别，
+
+
+url输入敲回车键到页面出现过程发生什么，
+	https://blog.csdn.net/Charles_Tian/article/details/80204526
+	https://blog.csdn.net/weixin_43789905/article/details/109547743
+	https://www.zhihu.com/question/23042131
+请求头和响应头有哪些内容
+
+get post区别
+内容：	get内容在请求头中，post在请求体中
+安全性：get不安全，会出现在地址栏内，post请求安全
+隐私性：get请求数据出现地址栏内，post隐私性较好
+数据长度：get数据长度为1024个字节。post没有限制
+作用：get用来取数据，post用来提交数据
+缓存：get数据能被缓存，post数据不能被缓存
+书签：get请求能被添加为书签，post不能被添加为书签
+数据格式：get格式 mutiltype/from-data
+
+
+http请求方法：
+get
+post
+put 上传制定资源
+delete 删除指定资源
+head 只返回http报文头
+TRACE：回显服务器收到的请求，主要用于测试或诊断
+OPTIONS：返回服务器针对特定资源所支持的HTTP请求方法。也可以利用向Web服务器发送’*’的请求来测试服务器的功能性。
+PATCH：PATCH请求与PUT请求类似，同样用于资源的更新。
+	PATCH一般用于资源的部分更新，而PUT一般用于资源的整体更新。
+	当资源不存在时，PATCH会创建一个新的资源，而PUT只会对已在资源进行更新。
+
+什么是软件测试：
+	找到软件中的缺陷和bug，保证质量；
+	保证软件可用，满足用户需求；
+	对软件测试用到的技术有一定认知；
+	用户思维，操作站在用户角度考虑
+	测试包含软件测试四个活动：
+		测试设计
+		测试计划
+		测试实现
+		测试执行
+软件测试的目的：早期，缺陷预防，找到需求、设计上的bug
+	中期，找到bug,使程序尽早稳定
+	后期，证明程序可用，功能实现，是否满足用户需求
+什么是软件缺陷	
+
+
+可选导出：
+快递信息
+开始时间：
+结束时间：
+配送方式：
+发货状态：
+
+方草 李健 卢燕 刘圣波
+袁佳怡 姜峦 闫婷婷 魏纯旭
+刘翔宇 冯继彪 王恩佳
+
+1.系统设置  
+2.支付设置  袁佳怡
+3.地区设置  卢燕
+4.配送设置  刘圣波
+5.添加商品分类/商品分类 冯继彪 
+6.添加商品/商品管理 魏纯旭
+7.订单管理 李健
+8.发货单 姜峦
+9.支付记录 闫婷婷
+10.退货管理 刘翔宇
+11.首页订单信息、商品信息、客户信息 王恩佳

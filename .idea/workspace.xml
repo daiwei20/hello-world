@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ad4af7d6-faef-4bca-a0a7-341e53229d9e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-world.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="wcx" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="E:\Project\hello-world\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\JAVA\repository-maven" />
+        <option name="mavenHome" value="E:/JAVA/utils/apache-maven-3.6.3-bin" />
+        <option name="userSettingsFile" value="E:\JAVA\utils\apache-maven-3.6.3-bin\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1yZNKQXQA0yA8LWxPzU9mxJjjms" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ad4af7d6-faef-4bca-a0a7-341e53229d9e" name="Default Changelist" comment="" />
+      <created>1632455085514</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1632455085514</updated>
+      <workItem from="1632455090108" duration="651000" />
+      <workItem from="1632462784704" duration="493000" />
+    </task>
+    <task id="LOCAL-00001" summary="create redis01">
+      <created>1632463221217</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1632463221217</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="create redis01" />
+    <option name="LAST_COMMIT_MESSAGE" value="create redis01" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="987" y="506" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1632463046481">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="987" y="506" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2048.1112@0.0.2048.1112" timestamp="1632463046481" />
+    <state x="782" y="137" key="CommitChangelistDialog2" timestamp="1632463426380">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="782" y="137" key="CommitChangelistDialog2/0.0.2048.1112@0.0.2048.1112" timestamp="1632463426380" />
+    <state x="505" y="264" width="1200" height="856" key="DiffContextDialog" timestamp="1632463294260">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="505" y="264" width="1200" height="856" key="DiffContextDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1632463294260" />
+  </component>
+</project>
